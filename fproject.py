@@ -1,7 +1,7 @@
 from selenium impot webdriver
 driver = webdriver.Chrome()
 
-driver.get("URL")
+driver.get("https://www.flipkart.com/")
 
 driver.find_element(By.NAME,"q").send_keys("mobiles")
 
